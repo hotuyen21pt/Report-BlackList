@@ -32,7 +32,7 @@ def show_auto_report_form(user_id):
 
     # Kiểm tra trạng thái form
     if st.session_state.get("show_form", False):
-        GEMINI_API_KEY = "AIzaSyAjCSBJQ0VcmjgGv_I8lv2tbYSy6sxMo6s"
+        GEMINI_API_KEY = "AIzaSyD_hssyeWCwEB05TpKP8e9DUAmKNxi9AmM"
         client = genai.Client(api_key=GEMINI_API_KEY)
 
         # Upload file
